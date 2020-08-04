@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/servfbyj/public_html/tutorials
+    - /bin/cp * $DEPLOYPATH
+   
